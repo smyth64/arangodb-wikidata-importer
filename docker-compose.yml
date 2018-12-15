@@ -1,0 +1,14 @@
+arangodb:
+  #image: arangodb/arangodb
+  build: ./dockerfiles
+  command: arangod --server.storage-engine rocksdb
+  container_name: arangodb
+  ports:
+    - 8529:8529
+  volumes:
+    - ./arangodb3/:/var/lib/arangodb3
+    - ./arangodb3-apps:/var/lib/arangodb3-apps
+    - ./parsed:/parsed
+  environment:
+    ARANGO_RANDOM_ROOT_PASSWORD: 1
+    ARANGO_STORAGE_ENGINE=rocksdb

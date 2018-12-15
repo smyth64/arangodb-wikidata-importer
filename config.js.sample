@@ -1,0 +1,42 @@
+module.exports = {
+  "host": "localhost",
+  "port": 8529,
+  "database": "wikidata",
+  "collection": "Topic",
+  "username": "jack",
+  "password": "sparrow",
+  "indices": [ // Create indicies for certain values
+    {
+      "fields": "labels.de.valueLower",
+      "type": "fulltext"
+    }, 
+    {
+      "fields": "labels.en.valueLower",
+      "type": "fulltext"
+    },
+    {
+      "fields": "labels.de.valueLower",
+      "type": "skiplist"
+    }, 
+    {
+      "fields": "labels.en.valueLower",
+      "type": "skiplist"
+    },
+    /*{
+      "fields": "descriptions.de.valueLower",
+      "type": "fulltext"
+    }, 
+    {
+      "fields": "descriptions.en.valueLower",
+      "type": "fulltext"
+    },
+    {
+      "fields": "aliases.de[*].valueLower",
+      "type": "skiplist"
+    },
+    {
+      "fields": "aliases.en[*].valueLower",
+      "type": "skiplist"
+    }*/
+  ]
+}
