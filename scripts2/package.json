@@ -1,0 +1,25 @@
+{
+  "name": "wikidata-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "array_to_lines.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.schmid.digital:10022/sd/wikidata-tools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "arangojs": "^5.4.2",
+    "async": "^2.1.4",
+    "chalk": "^1.1.3",
+    "lodash": "^4.17.2",
+    "rimraf": "^2.5.4",
+    "shelljs": "^0.7.5",
+    "split-file": "^1.2.0",
+    "stream-json": "^0.4.2"
+  }
+}

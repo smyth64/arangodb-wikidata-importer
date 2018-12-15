@@ -1,0 +1,34 @@
+{
+  "host": "localhost",
+  "port": 8529,
+  "database": "mydbname",
+  "collection": "heregoesthedata",
+  "username": "root",
+  "password": "thepassword",
+  "indices": [
+    {
+      "fields": "labels.de.valueLower",
+      "type": "fulltext"
+    }, 
+    {
+      "field": "labels.en.valueLower",
+      "type": "fulltext"
+    }, 
+    {
+      "fields": "descriptions.de.valueLower",
+      "type": "fulltext"
+    }, 
+    {
+      "fields": "descriptions.en.valueLower",
+      "type": "fulltext"
+    },
+    {
+      "fields": "aliases.de[*].valueLower",
+      "type": "skiplist"
+    },
+    {
+      "fields": "aliases.en[*].valueLower",
+      "type": "skiplist"
+    }
+  ]
+}

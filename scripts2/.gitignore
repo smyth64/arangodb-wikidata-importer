@@ -1,0 +1,11 @@
+node_modules
+dump
+parsed
+splitted
+docker-compose.yml
+config.json
+arangodb3
+arangodb3-apps
+yarn.lock
+nohup.out
+
