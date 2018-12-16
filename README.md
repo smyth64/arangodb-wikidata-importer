@@ -1,30 +1,43 @@
-Hey!
+# Import your wikidata dump to ArangoDB
 
-How to import wikidata dump to ArangoDB in 5 simple steps?
+First get the wikidata json dump from here: https://dumps.wikimedia.org/wikidatawiki/entities
 
-1. First of all we convert this huuuuuge Array of the dump to a format, where each object is in a new line.
-```
-node scripts/array-to-lines.js dump/latest-all.json dump/latest-all-lines.json
-```
+After that we are trying to import this huuuge dump into our ArangoDB 🥑
 
-2. Now you can parse each file seperately using this script
+## Fit the config to your needs!
+Or just copy and take it :)
 ```
-node multi-files-parser.js splitted/*
+cp config.json.sample config.json
 ```
 
-3. Then we split the file in 4 (recommended number is the amount of CPU cores you have) parts in order so that we can use one CPU for each file.
-
+## Convert Array JSON to Lines JSON
+Let's convert this huuuuuge Array of the dump to a format, where each object is in a new line.
 ```
-node scripts/split-file.js dump/latest-all-lines.json 4
+node scripts/array-to-lines.js dump/minidump.json dump/minidump-lines.json
+```
+*The "minidump" is just for testing. If you are brave enough, place here the dump from wikidata!*
+
+## Split the converted dump to more files
+Best practice: For each CPU core one file. (Change the "4" to the amount of cores)
+```
+node scripts/split-file.js dump/minidump-lines.json 4 splitted
 ```
 
-4. Out ArangoDB is already waiting hungry for the data 😄 Let's start it
+## Parse it 
+Now you can parse each file seperately using this script
+```
+node scripts/multi-files-parser.js splitted/*
+```
+
+## Let's start  🥑Arango DB 😄 
 ```
 docker-compose up -d
 ```
 
-5. So now we can import everything! 😋
+## So now we can import everything! 😋
 
 ```
-docker-compose exec -it arangodb node /scripts/importer.js /parsed
+node scripts/importer.js parsed/
+```
+
 
