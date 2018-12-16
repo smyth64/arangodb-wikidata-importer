@@ -1,4 +1,5 @@
 'use strict'
+const rimraf = require('rimraf')
 
 var fs = require("fs");
 var StreamArray = require("stream-json/utils/StreamArray");
