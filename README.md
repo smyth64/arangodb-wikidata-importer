@@ -7,7 +7,7 @@ After that we are trying to import this huuuge dump into our ArangoDB 🥑
 ## Fit the config to your needs!
 Or just copy and take it :)
 ```
-cp config.json.sample config.json
+cp config.js.sample config.js
 ```
 
 ## Convert Array JSON to Lines JSON
@@ -37,7 +37,7 @@ docker-compose up -d
 ## So now we can import everything! 😋
 
 ```
-node scripts/importer.js parsed/
+node scripts/importer.js data/parsed/
 ```
 
 # Config
