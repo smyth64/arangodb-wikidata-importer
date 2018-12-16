@@ -31,6 +31,10 @@ log('total lines: ' + linesTotal)
 log('total parts: ' + parts)
 log('total lines per file: ' + linesPerFile)
 
+if (!fs.existsSync(outputFolder)){
+  fs.mkdirSync(outputFolder);
+}
+
 let split = child_process.execSync('split -l ' + linesPerFile + ' ' + path + ' ' + outputFolder + '/file.')
 
 log('split finished. saved files to folder: ' + outputFolder)
