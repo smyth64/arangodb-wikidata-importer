@@ -26,7 +26,7 @@ try {
 
 let lines = child_process.execSync('wc -l <' + path)
 let linesTotal = parseInt(lines.toString(), 10)
-let linesPerFile = Math.floor(linesTotal / parts)
+let linesPerFile = Math.floor(linesTotal / parts) || 1
 
 log('total lines: ' + linesTotal)
 log('total parts: ' + parts)

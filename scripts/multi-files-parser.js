@@ -75,12 +75,18 @@ else if (cluster.isWorker) {
       delete object.aliases
     } else {
       object.aliases = _.pick(object.aliases, config.parser.languages)
-      object.aliases = _.map(object.aliases, aliases => {
-        return aliases.map(alias => {
+      console.log('old', object.aliases)
+      let aliasesNew = []
+      for (const key of Object.keys(object.aliases)) {
+        console.log('key', object.aliases[key])
+        object.aliases[key] = object.aliases[key].map(alias => {
           alias.valueLower = alias.value.toLowerCase()
-          return alias
+          return alias;
         })
-      })
+        aliasesNew.push(...object.aliases[key])
+      }
+      console.log('new', aliasesNew)
+      object.aliases = aliasesNew
     }
 
     object.sitelinks = config.parser.sitelinks.length > 0 ? _.pick(object.sitelinks, config.parser.sitelinks) : undefined
