@@ -75,17 +75,14 @@ else if (cluster.isWorker) {
       delete object.aliases
     } else {
       object.aliases = _.pick(object.aliases, config.parser.languages)
-      console.log('old', object.aliases)
       let aliasesNew = []
       for (const key of Object.keys(object.aliases)) {
-        console.log('key', object.aliases[key])
         object.aliases[key] = object.aliases[key].map(alias => {
           alias.valueLower = alias.value.toLowerCase()
           return alias;
         })
         aliasesNew.push(...object.aliases[key])
       }
-      console.log('new', aliasesNew)
       object.aliases = aliasesNew
     }
 
