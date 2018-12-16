@@ -1,5 +1,4 @@
 config.js
-testdata
-parsed
+data/parsed
+data/splitted
 nohup.out
-splitted

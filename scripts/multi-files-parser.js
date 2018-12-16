@@ -8,17 +8,9 @@ const rimraf = require('rimraf')
 var log = console.log
 // const chalk = require('chalk')
 const readline = require('readline');
-
-var languages = ['de', 'en'];
-var sitelinks = ['dewiki', 'dewikiquote', 'enwiki', 'enwikiquote'];
-var claims = [
-  'P31' // instanceof
-  ,'P10' // video
-  ,'P18' // image
-]
-
 var files = process.argv.slice(2);
-var outputPath = path.resolve('./parsed');
+const outputPath = path.resolve('./data/parsed');
+const config = require('../config')
 
 if (files.length < 1) {
   log('please provide input file!')
@@ -26,11 +18,13 @@ if (files.length < 1) {
 }
 
 if (cluster.isMaster) {
-
   var numCPUs = require('os').cpus().length;
 
   rimraf(outputPath + '/*', function(error) {
-    if (error) log('Error: ', error)
+    if (error) {
+      log('Error: ', error)
+      process.exit()
+    }
 
     if (!fs.existsSync(outputPath)) {
       fs.mkdirSync(outputPath)
@@ -69,17 +63,18 @@ else if (cluster.isWorker) {
     object.wikidataId = _.clone(object.id)
     delete object.id;
     
-    object.labels = _.pick(object.labels, languages)
+    object.labels = _.pick(object.labels, config.parser.languages)
     if (object.labels.de) object.labels.de.valueLower = object.labels.de.value.toLowerCase()
     if (object.labels.en) object.labels.en.valueLower = object.labels.en.value.toLowerCase()
 
-    object.descriptions = _.pick(object.descriptions, languages)
+    object.descriptions = _.pick(object.descriptions, config.parser.languages)
     if (object.descriptions.de) object.descriptions.de.valueLower = object.descriptions.de.value.toLowerCase()
     if (object.descriptions.en) object.descriptions.en.valueLower = object.descriptions.en.value.toLowerCase()  
 
-    if (_.isEmpty(object.aliases)) delete object.aliases
-    else {
-      object.aliases = _.pick(object.aliases, languages)
+    if (_.isEmpty(object.aliases)) {
+      delete object.aliases
+    } else {
+      object.aliases = _.pick(object.aliases, config.parser.languages)
       object.aliases = _.map(object.aliases, aliases => {
         return aliases.map(alias => {
           alias.valueLower = alias.value.toLowerCase()
@@ -88,13 +83,9 @@ else if (cluster.isWorker) {
       })
     }
 
-    object.sitelinks = _.pick(object.sitelinks, sitelinks)
-
-    object.connectionsAmount = 0
-    for (let claim in object.claims)
-      object.connectionsAmount += claim.length
-
-    object.claims = _.pick(object.claims, claims)
+    object.sitelinks = config.parser.sitelinks.length > 0 ? _.pick(object.sitelinks, config.parser.sitelinks) : undefined
+    object.connections = object.claims ? Object.keys(object.claims).length : 0;
+    object.claims = config.parser.claims.length > 0 ? _.pick(object.claims, config.parser.claims) : undefined;
 
     fs.appendFileSync(outputPath + '/' + filename, JSON.stringify(object) + '\n')
   });

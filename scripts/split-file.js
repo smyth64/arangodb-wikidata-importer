@@ -1,6 +1,7 @@
 'use strict'
 
 var fs = require('fs');
+const rimraf = require('rimraf')
 var splitFile = require('split-file');
 const child_process = require('child_process');
 const log = console.log
@@ -31,12 +32,20 @@ log('total lines: ' + linesTotal)
 log('total parts: ' + parts)
 log('total lines per file: ' + linesPerFile)
 
-if (!fs.existsSync(outputFolder)){
-  fs.mkdirSync(outputFolder);
-}
+rimraf(outputFolder + '/*', function(error) {
+  if (error) {
+    log('Error: ', error)
+    process.exit()
+  }
 
-let split = child_process.execSync('split -l ' + linesPerFile + ' ' + path + ' ' + outputFolder + '/file.')
+  if (!fs.existsSync(outputFolder)){
+    fs.mkdirSync(outputFolder);
+  }
+  
+  let split = child_process.execSync('split -l ' + linesPerFile + ' ' + path + ' ' + outputFolder + '/file.')
+  
+  log('split finished. saved files to folder: ' + outputFolder)
+  if (split.toString()) log(split.toString())  
+})
 
-log('split finished. saved files to folder: ' + outputFolder)
-if (split.toString()) log(split.toString())
 

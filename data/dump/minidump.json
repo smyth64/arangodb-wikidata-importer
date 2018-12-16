@@ -1,0 +1,843 @@
+[
+    {
+        "type": "item",
+        "id": "Q666",
+        "labels": {
+            "en": {
+                "language": "en",
+                "value": "number of the beast"
+            },
+            "fr": {
+                "language": "fr",
+                "value": "Nombre de la B\u00eate"
+            },
+            "es": {
+                "language": "es",
+                "value": "N\u00famero de la Bestia"
+            },
+            "pl": {
+                "language": "pl",
+                "value": "Liczba Bestii"
+            },
+            "ru": {
+                "language": "ru",
+                "value": "\u0447\u0438\u0441\u043b\u043e \u0437\u0432\u0435\u0440\u044f"
+            },
+            "de": {
+                "language": "de",
+                "value": "Sechshundertsechsundsechzig"
+            },
+            "nb": {
+                "language": "nb",
+                "value": "Dyrets tall"
+            },
+            "pt": {
+                "language": "pt",
+                "value": "n\u00famero da besta"
+            },
+            "it": {
+                "language": "it",
+                "value": "Numero della bestia"
+            },
+            "ar": {
+                "language": "ar",
+                "value": "\u0631\u0642\u0645 \u0627\u0644\u0648\u062d\u0634"
+            },
+            "az": {
+                "language": "az",
+                "value": "666"
+            },
+            "bg": {
+                "language": "bg",
+                "value": "\u0427\u0438\u0441\u043b\u043e\u0442\u043e \u043d\u0430 \u0437\u0432\u044f\u0440\u0430"
+            },
+            "ca": {
+                "language": "ca",
+                "value": "Nombre de la b\u00e8stia"
+            },
+            "cs": {
+                "language": "cs",
+                "value": "\u010d\u00edslo \u0161elmy"
+            },
+            "cv": {
+                "language": "cv",
+                "value": "\u041a\u0430\u0439\u0103\u043a \u0445\u0438\u0441\u0435\u043f\u0115"
+            },
+            "da": {
+                "language": "da",
+                "value": "Dyrets tal"
+            },
+            "eo": {
+                "language": "eo",
+                "value": "Nombro de la bestio"
+            },
+            "fa": {
+                "language": "fa",
+                "value": "\u0639\u062f\u062f \u0648\u062d\u0634"
+            },
+            "fi": {
+                "language": "fi",
+                "value": "pedon luku"
+            },
+            "id": {
+                "language": "id",
+                "value": "Bilangan binatang"
+            },
+            "ja": {
+                "language": "ja",
+                "value": "\u7363\u306e\u6570\u5b57"
+            },
+            "ko": {
+                "language": "ko",
+                "value": "\uc9d0\uc2b9\uc758 \uc22b\uc790"
+            },
+            "la": {
+                "language": "la",
+                "value": "Sescenti sexaginta sex"
+            },
+            "nds": {
+                "language": "nds",
+                "value": "666"
+            },
+            "nl": {
+                "language": "nl",
+                "value": "Getal van het Beest"
+            },
+            "ro": {
+                "language": "ro",
+                "value": "Num\u0103rul fiarei"
+            },
+            "sk": {
+                "language": "sk",
+                "value": "\u010d\u00edslo \u0161elmy"
+            },
+            "sq": {
+                "language": "sq",
+                "value": "Numri i shtaz\u00ebs"
+            },
+            "tl": {
+                "language": "tl",
+                "value": "Bilang ng Halimaw"
+            },
+            "uk": {
+                "language": "uk",
+                "value": "\u0427\u0438\u0441\u043b\u043e \u0437\u0432\u0456\u0440\u0430"
+            },
+            "vep": {
+                "language": "vep",
+                "value": "Zverin lugu"
+            },
+            "zh": {
+                "language": "zh",
+                "value": "\u7378\u540d\u6578\u76ee"
+            },
+            "en-gb": {
+                "language": "en-gb",
+                "value": "Number of the Beast"
+            },
+            "hu": {
+                "language": "hu",
+                "value": "a Fenevad jele"
+            },
+            "ur": {
+                "language": "ur",
+                "value": "\u0648\u062d\u0634 \u06a9\u0627 \u0639\u062f\u062f"
+            },
+            "de-ch": {
+                "language": "de-ch",
+                "value": "Sechshundertsechsundsechzig"
+            },
+            "en-ca": {
+                "language": "en-ca",
+                "value": "Number of the Beast"
+            },
+            "pt-br": {
+                "language": "pt-br",
+                "value": "n\u00famero da besta"
+            },
+            "ta": {
+                "language": "ta",
+                "value": "666"
+            },
+            "oc": {
+                "language": "oc",
+                "value": "Nombre de la b\u00e8stia"
+            },
+            "el": {
+                "language": "el",
+                "value": "\u03b1\u03c1\u03b9\u03b8\u03bc\u03cc\u03c2 \u03c4\u03bf\u03c5 \u03b8\u03b7\u03c1\u03af\u03bf\u03c5"
+            },
+            "be": {
+                "language": "be",
+                "value": "\u041b\u0456\u043a \u0437\u0432\u0435\u0440\u0430"
+            },
+            "sr": {
+                "language": "sr",
+                "value": "\u0437\u043d\u0430\u043a \u0417\u0432\u0435\u0440\u0438"
+            },
+            "sr-ec": {
+                "language": "sr-ec",
+                "value": "\u0437\u043d\u0430\u043a \u0417\u0432\u0435\u0440\u0438"
+            },
+            "sr-el": {
+                "language": "sr-el",
+                "value": "znak Zveri"
+            }
+        },
+        "descriptions": {
+            "en": {
+                "language": "en",
+                "value": "Christian theological concept"
+            },
+            "pl": {
+                "language": "pl",
+                "value": "w teologiach wi\u0119kszo\u015bci wyzna\u0144 chrze\u015bcija\u0144skich zaprzeczenie boskiej doskona\u0142o\u015bci"
+            },
+            "ru": {
+                "language": "ru",
+                "value": "\u043e\u0441\u043e\u0431\u043e\u0435 \u0447\u0438\u0441\u043b\u043e, \u0443\u043f\u043e\u043c\u0438\u043d\u0430\u0435\u043c\u043e\u0435 \u0432 \u0411\u0438\u0431\u043b\u0438\u0438, \u043f\u043e\u0434 \u043a\u043e\u0442\u043e\u0440\u044b\u043c \u0441\u043a\u0440\u044b\u0442\u043e \u0438\u043c\u044f \u0430\u043f\u043e\u043a\u0430\u043b\u0438\u043f\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0437\u0432\u0435\u0440\u044f; \u043d\u0443\u043c\u0435\u0440\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u0432\u043e\u043f\u043b\u043e\u0449\u0435\u043d\u0438\u0435 \u0441\u0442\u0430\u0432\u043b\u0435\u043d\u043d\u0438\u043a\u0430 \u0441\u0430\u0442\u0430\u043d\u044b."
+            },
+            "de": {
+                "language": "de",
+                "value": "biblische Zahl des Tiers"
+            },
+            "es": {
+                "language": "es",
+                "value": "s\u00edmbolo de Satan\u00e1s"
+            },
+            "nb": {
+                "language": "nb",
+                "value": "kristent eskatologisk konsept"
+            },
+            "it": {
+                "language": "it",
+                "value": "numero associato nell'Apocalisse ad una bestia che sale dal mare"
+            },
+            "fr": {
+                "language": "fr",
+                "value": "nombre utilis\u00e9 dans l'Apocalypse pour d\u00e9signer \"la B\u00eate\""
+            },
+            "en-gb": {
+                "language": "en-gb",
+                "value": "Christian theological concept"
+            },
+            "fi": {
+                "language": "fi",
+                "value": "k\u00e4site kristillisess\u00e4 teologiassa"
+            },
+            "el": {
+                "language": "el",
+                "value": "\u03a7\u03c1\u03b9\u03c3\u03c4\u03b9\u03b1\u03bd\u03b9\u03ba\u03ae \u03b8\u03b5\u03bf\u03bb\u03bf\u03b3\u03b9\u03ba\u03ae \u03ad\u03bd\u03bd\u03bf\u03b9\u03b1"
+            },
+            "ja": {
+                "language": "ja",
+                "value": "\u65b0\u7d04\u8056\u66f8\u306e\u8a9e\u53e5"
+            },
+            "zh-hans": {
+                "language": "zh-hans",
+                "value": "\u8bb0\u8f7d\u4e8e\u300a\u5723\u7ecf\u300b\u7684\u300a\u542f\u793a\u5f55\u300b\u7684\u7279\u522b\u6570\u76ee"
+            },
+            "hu": {
+                "language": "hu",
+                "value": "kereszt\u00e9ny teol\u00f3giai fogalom"
+            },
+            "uk": {
+                "language": "uk",
+                "value": "\u0447\u0438\u0441\u043b\u043e, \u044f\u043a\u0435 \u0443 \u0445\u0440\u0438\u0441\u0442\u0438\u044f\u043d\u0441\u0442\u0432\u0456 \u0441\u0438\u043c\u0432\u043e\u043b\u0456\u0437\u0443\u0454 \u0421\u0430\u0442\u0430\u043d\u0443 (\u0410\u043d\u0442\u0438\u0445\u0440\u0438\u0441\u0442\u0430) \u043d\u0430 \u043f\u0440\u043e\u0442\u0438\u0432\u0430\u0433\u0443 \u00ab\u0411\u043e\u0436\u0438\u043c\u00bb \u0446\u0438\u0444\u0440\u0430\u043c 1, 3 \u0456 7"
+            },
+            "pt-br": {
+                "language": "pt-br",
+                "value": "conceito teol\u00f3gico crist\u00e3o"
+            },
+            "pt": {
+                "language": "pt",
+                "value": "conceito teol\u00f3gico crist\u00e3o"
+            },
+            "cs": {
+                "language": "cs",
+                "value": "k\u0159es\u0165ansk\u00fd teologick\u00fd koncept"
+            },
+            "ca": {
+                "language": "ca",
+                "value": "concepte teol\u00f2gic cristi\u00e0"
+            }
+        },
+        "aliases": {
+            "en": [
+                {
+                    "language": "en",
+                    "value": "666"
+                },
+                {
+                    "language": "en",
+                    "value": "Six hundred and sixty-six"
+                }
+            ],
+            "fr": [
+                {
+                    "language": "fr",
+                    "value": "666"
+                },
+                {
+                    "language": "fr",
+                    "value": "six cent soixante-six"
+                },
+                {
+                    "language": "fr",
+                    "value": "chiffre de la B\u00eate"
+                },
+                {
+                    "language": "fr",
+                    "value": "six-cent-soixante-six"
+                }
+            ],
+            "de": [
+                {
+                    "language": "de",
+                    "value": "666"
+                }
+            ],
+            "es": [
+                {
+                    "language": "es",
+                    "value": "666"
+                },
+                {
+                    "language": "es",
+                    "value": "Marca de la Bestia"
+                }
+            ],
+            "nb": [
+                {
+                    "language": "nb",
+                    "value": "666"
+                },
+                {
+                    "language": "nb",
+                    "value": "616"
+                }
+            ],
+            "en-gb": [
+                {
+                    "language": "en-gb",
+                    "value": "666"
+                }
+            ],
+            "hu": [
+                {
+                    "language": "hu",
+                    "value": "666"
+                },
+                {
+                    "language": "hu",
+                    "value": "a Fenevad sz\u00e1ma"
+                }
+            ],
+            "fi": [
+                {
+                    "language": "fi",
+                    "value": "666"
+                },
+                {
+                    "language": "fi",
+                    "value": "kuusisataakuusikymment\u00e4kuusi"
+                }
+            ],
+            "it": [
+                {
+                    "language": "it",
+                    "value": "666"
+                },
+                {
+                    "language": "it",
+                    "value": "sei-sei-sei"
+                }
+            ],
+            "nl": [
+                {
+                    "language": "nl",
+                    "value": "666"
+                },
+                {
+                    "language": "nl",
+                    "value": "Teken van het Beest"
+                }
+            ],
+            "cs": [
+                {
+                    "language": "cs",
+                    "value": "666"
+                },
+                {
+                    "language": "cs",
+                    "value": "616"
+                },
+                {
+                    "language": "cs",
+                    "value": "\u0161est set \u0161edes\u00e1t \u0161est"
+                }
+            ]
+        },
+        "claims": {
+            "P31": [
+                {
+                    "mainsnak": {
+                        "snaktype": "value",
+                        "property": "P31",
+                        "datavalue": {
+                            "value": {
+                                "entity-type": "item",
+                                "numeric-id": 11563,
+                                "id": "Q11563"
+                            },
+                            "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                    },
+                    "type": "statement",
+                    "id": "Q666$c372ae38-4c1b-1089-78ec-4a0866bffc03",
+                    "rank": "normal"
+                },
+                {
+                    "mainsnak": {
+                        "snaktype": "value",
+                        "property": "P31",
+                        "datavalue": {
+                            "value": {
+                                "entity-type": "item",
+                                "numeric-id": 245102,
+                                "id": "Q245102"
+                            },
+                            "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                    },
+                    "type": "statement",
+                    "id": "Q666$81682a35-4c26-77bb-bff7-d82b95ded4b2",
+                    "rank": "normal"
+                },
+                {
+                    "mainsnak": {
+                        "snaktype": "value",
+                        "property": "P31",
+                        "datavalue": {
+                            "value": {
+                                "entity-type": "item",
+                                "numeric-id": 754831,
+                                "id": "Q754831"
+                            },
+                            "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                    },
+                    "type": "statement",
+                    "id": "Q666$f9d023ff-45f9-9b37-0393-13ea8604c3b5",
+                    "rank": "normal"
+                },
+                {
+                    "mainsnak": {
+                        "snaktype": "value",
+                        "property": "P31",
+                        "datavalue": {
+                            "value": {
+                                "entity-type": "item",
+                                "numeric-id": 1418132,
+                                "id": "Q1418132"
+                            },
+                            "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                    },
+                    "type": "statement",
+                    "id": "Q666$4f25bdfe-4e13-a1b1-ab01-535449e1f748",
+                    "rank": "normal"
+                },
+                {
+                    "mainsnak": {
+                        "snaktype": "value",
+                        "property": "P31",
+                        "datavalue": {
+                            "value": {
+                                "entity-type": "item",
+                                "numeric-id": 13366104,
+                                "id": "Q13366104"
+                            },
+                            "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                    },
+                    "type": "statement",
+                    "id": "Q666$6e506768-430e-ee2b-1e26-ca4f3d8b97b5",
+                    "rank": "normal"
+                },
+                {
+                    "mainsnak": {
+                        "snaktype": "value",
+                        "property": "P31",
+                        "datavalue": {
+                            "value": {
+                                "entity-type": "item",
+                                "numeric-id": 21199,
+                                "id": "Q21199"
+                            },
+                            "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                    },
+                    "type": "statement",
+                    "id": "Q666$ca6ae7b7-43e3-75ba-1611-35ecd69f7623",
+                    "rank": "normal"
+                },
+                {
+                    "mainsnak": {
+                        "snaktype": "value",
+                        "property": "P31",
+                        "datavalue": {
+                            "value": {
+                                "entity-type": "item",
+                                "numeric-id": 1200532,
+                                "id": "Q1200532"
+                            },
+                            "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                    },
+                    "type": "statement",
+                    "id": "Q666$67ebe880-4421-c211-8418-bde723e1db93",
+                    "rank": "normal"
+                }
+            ],
+            "P373": [
+                {
+                    "mainsnak": {
+                        "snaktype": "value",
+                        "property": "P373",
+                        "datavalue": {
+                            "value": "Number of the Beast",
+                            "type": "string"
+                        },
+                        "datatype": "string"
+                    },
+                    "type": "statement",
+                    "id": "q666$15780BAF-34F4-4B81-8E13-7EA18ABBAF13",
+                    "rank": "normal",
+                    "references": [
+                        {
+                            "hash": "004ec6fbee857649acdbdbad4f97b2c8571df97b",
+                            "snaks": {
+                                "P143": [
+                                    {
+                                        "snaktype": "value",
+                                        "property": "P143",
+                                        "datavalue": {
+                                            "value": {
+                                                "entity-type": "item",
+                                                "numeric-id": 48183,
+                                                "id": "Q48183"
+                                            },
+                                            "type": "wikibase-entityid"
+                                        },
+                                        "datatype": "wikibase-item"
+                                    }
+                                ]
+                            },
+                            "snaks-order": [
+                                "P143"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "P18": [
+                {
+                    "mainsnak": {
+                        "snaktype": "value",
+                        "property": "P18",
+                        "datavalue": {
+                            "value": "The number of the beast is 666 Philadelphia, Rosenbach Museum and Library.jpg",
+                            "type": "string"
+                        },
+                        "datatype": "commonsMedia"
+                    },
+                    "type": "statement",
+                    "id": "q666$99537AA9-F218-4E57-8198-29E1B2077BB9",
+                    "rank": "normal"
+                }
+            ],
+            "P646": [
+                {
+                    "mainsnak": {
+                        "snaktype": "value",
+                        "property": "P646",
+                        "datavalue": {
+                            "value": "\/m\/01fbcr",
+                            "type": "string"
+                        },
+                        "datatype": "external-id"
+                    },
+                    "type": "statement",
+                    "id": "Q666$2B220D86-FCB0-421F-8C5F-22AD32AE6B03",
+                    "rank": "normal",
+                    "references": [
+                        {
+                            "hash": "af38848ab5d9d9325cffd93a5ec656cc6ca889ed",
+                            "snaks": {
+                                "P248": [
+                                    {
+                                        "snaktype": "value",
+                                        "property": "P248",
+                                        "datavalue": {
+                                            "value": {
+                                                "entity-type": "item",
+                                                "numeric-id": 15241312,
+                                                "id": "Q15241312"
+                                            },
+                                            "type": "wikibase-entityid"
+                                        },
+                                        "datatype": "wikibase-item"
+                                    }
+                                ],
+                                "P577": [
+                                    {
+                                        "snaktype": "value",
+                                        "property": "P577",
+                                        "datavalue": {
+                                            "value": {
+                                                "time": "+2013-10-28T00:00:00Z",
+                                                "timezone": 0,
+                                                "before": 0,
+                                                "after": 0,
+                                                "precision": 11,
+                                                "calendarmodel": "http:\/\/www.wikidata.org\/entity\/Q1985727"
+                                            },
+                                            "type": "time"
+                                        },
+                                        "datatype": "time"
+                                    }
+                                ]
+                            },
+                            "snaks-order": [
+                                "P248",
+                                "P577"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "P1181": [
+                {
+                    "mainsnak": {
+                        "snaktype": "value",
+                        "property": "P1181",
+                        "datavalue": {
+                            "value": {
+                                "amount": "+666",
+                                "unit": "1",
+                                "upperBound": "+666",
+                                "lowerBound": "+666"
+                            },
+                            "type": "quantity"
+                        },
+                        "datatype": "quantity"
+                    },
+                    "type": "statement",
+                    "id": "Q666$8403bd61-44f9-d8f2-22af-080f912f5e69",
+                    "rank": "normal"
+                }
+            ],
+            "P1417": [
+                {
+                    "mainsnak": {
+                        "snaktype": "value",
+                        "property": "P1417",
+                        "datavalue": {
+                            "value": "topic\/666-New-Testament",
+                            "type": "string"
+                        },
+                        "datatype": "external-id"
+                    },
+                    "type": "statement",
+                    "id": "Q666$25D1D726-D1C2-4DB6-BE14-2687D3312D3D",
+                    "rank": "normal"
+                }
+            ]
+        },
+        "sitelinks": {
+            "dewiki": {
+                "site": "dewiki",
+                "title": "Sechshundertsechsundsechzig",
+                "badges": []
+            },
+            "ptwiki": {
+                "site": "ptwiki",
+                "title": "N\u00famero da Besta",
+                "badges": []
+            },
+            "itwiki": {
+                "site": "itwiki",
+                "title": "Numero della bestia",
+                "badges": []
+            },
+            "frwiki": {
+                "site": "frwiki",
+                "title": "Nombre de la B\u00eate",
+                "badges": []
+            },
+            "eswiki": {
+                "site": "eswiki",
+                "title": "Marca de la Bestia",
+                "badges": []
+            },
+            "plwiki": {
+                "site": "plwiki",
+                "title": "Liczba Bestii",
+                "badges": []
+            },
+            "ruwiki": {
+                "site": "ruwiki",
+                "title": "\u0427\u0438\u0441\u043b\u043e \u0437\u0432\u0435\u0440\u044f",
+                "badges": []
+            },
+            "arwiki": {
+                "site": "arwiki",
+                "title": "\u0631\u0642\u0645 \u0627\u0644\u0648\u062d\u0634",
+                "badges": []
+            },
+            "azwiki": {
+                "site": "azwiki",
+                "title": "666 (mifologiya)",
+                "badges": []
+            },
+            "cawiki": {
+                "site": "cawiki",
+                "title": "Nombre de la b\u00e8stia",
+                "badges": []
+            },
+            "cswiki": {
+                "site": "cswiki",
+                "title": "\u010c\u00edslo \u0161elmy",
+                "badges": []
+            },
+            "cvwiki": {
+                "site": "cvwiki",
+                "title": "\u041a\u0430\u0439\u0103\u043a \u0445\u0438\u0441\u0435\u043f\u0115",
+                "badges": []
+            },
+            "dawiki": {
+                "site": "dawiki",
+                "title": "Dyrets tal",
+                "badges": []
+            },
+            "eowiki": {
+                "site": "eowiki",
+                "title": "Nombro de la bestio",
+                "badges": []
+            },
+            "fawiki": {
+                "site": "fawiki",
+                "title": "\u0639\u062f\u062f \u0648\u062d\u0634",
+                "badges": []
+            },
+            "fiwiki": {
+                "site": "fiwiki",
+                "title": "Pedon luku",
+                "badges": []
+            },
+            "idwiki": {
+                "site": "idwiki",
+                "title": "Bilangan binatang",
+                "badges": []
+            },
+            "jawiki": {
+                "site": "jawiki",
+                "title": "\u7363\u306e\u6570\u5b57",
+                "badges": []
+            },
+            "kowiki": {
+                "site": "kowiki",
+                "title": "\uc9d0\uc2b9\uc758 \uc22b\uc790",
+                "badges": []
+            },
+            "lawiki": {
+                "site": "lawiki",
+                "title": "Sescenti sexaginta sex",
+                "badges": []
+            },
+            "ndswiki": {
+                "site": "ndswiki",
+                "title": "666 (Okkultismus)",
+                "badges": []
+            },
+            "nlwiki": {
+                "site": "nlwiki",
+                "title": "Getal van het Beest",
+                "badges": []
+            },
+            "nowiki": {
+                "site": "nowiki",
+                "title": "Dyrets tall",
+                "badges": []
+            },
+            "rowiki": {
+                "site": "rowiki",
+                "title": "Num\u0103rul fiarei",
+                "badges": []
+            },
+            "skwiki": {
+                "site": "skwiki",
+                "title": "\u010c\u00edslo \u0161elmy",
+                "badges": []
+            },
+            "sqwiki": {
+                "site": "sqwiki",
+                "title": "Numri i shtaz\u00ebs",
+                "badges": []
+            },
+            "tlwiki": {
+                "site": "tlwiki",
+                "title": "Bilang ng Halimaw",
+                "badges": []
+            },
+            "ukwiki": {
+                "site": "ukwiki",
+                "title": "\u0427\u0438\u0441\u043b\u043e \u0437\u0432\u0456\u0440\u0430",
+                "badges": []
+            },
+            "vepwiki": {
+                "site": "vepwiki",
+                "title": "Zverin lugu",
+                "badges": []
+            },
+            "zhwiki": {
+                "site": "zhwiki",
+                "title": "\u7378\u540d\u6578\u76ee",
+                "badges": []
+            },
+            "urwiki": {
+                "site": "urwiki",
+                "title": "\u0648\u062d\u0634 \u06a9\u0627 \u0639\u062f\u062f",
+                "badges": []
+            },
+            "bewiki": {
+                "site": "bewiki",
+                "title": "\u041b\u0456\u043a \u0437\u0432\u0435\u0440\u0430",
+                "badges": []
+            },
+            "plwikiquote": {
+                "site": "plwikiquote",
+                "title": "Sze\u015b\u0107set sze\u015b\u0107dziesi\u0105t sze\u015b\u0107",
+                "badges": []
+            },
+            "bgwiki": {
+                "site": "bgwiki",
+                "title": "\u0427\u0438\u0441\u043b\u043e \u043d\u0430 \u0437\u0432\u044f\u0440\u0430",
+                "badges": []
+            },
+            "enwiki": {
+                "site": "enwiki",
+                "title": "Number of the Beast",
+                "badges": []
+            }
+        }
+    }
+]

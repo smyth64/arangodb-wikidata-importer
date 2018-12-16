@@ -9,8 +9,7 @@ arangodb:
   volumes:
     #- ./arangodb3/:/var/lib/arangodb3
     #- ./arangodb3-apps:/var/lib/arangodb3-apps
-    - ./splitted:/splitted
-    - ./parsed:/parsed
+    - ./data:/data
     - ./scripts:/scripts
     - ./config.js:/config.js
   environment:
