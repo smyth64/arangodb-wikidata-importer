@@ -40,6 +40,56 @@ docker-compose up -d
 node scripts/importer.js data/parsed/
 ```
 
+In your Arango DB Collection, there should be something like this now:
+```
+{
+  "type": "item",
+  "labels": {
+    "de": {
+      "language": "de",
+      "value": "Sechshundertsechsundsechzig",
+      "valueLower": "sechshundertsechsundsechzig"
+    },
+    "en": {
+      "language": "en",
+      "value": "number of the beast",
+      "valueLower": "number of the beast"
+    }
+  },
+  "descriptions": {
+    "de": {
+      "language": "de",
+      "value": "biblische Zahl des Tiers",
+      "valueLower": "biblische zahl des tiers"
+    },
+    "en": {
+      "language": "en",
+      "value": "Christian theological concept",
+      "valueLower": "christian theological concept"
+    }
+  },
+  "aliases": [
+    {
+      "language": "de",
+      "value": "666",
+      "valueLower": "666"
+    },
+    {
+      "language": "en",
+      "value": "666",
+      "valueLower": "666"
+    },
+    {
+      "language": "en",
+      "value": "Six hundred and sixty-six",
+      "valueLower": "six hundred and sixty-six"
+    }
+  ],
+  "wikidataId": "Q666",
+  "connections": 6
+}
+```
+
 # Config
 Look into the config.js
 

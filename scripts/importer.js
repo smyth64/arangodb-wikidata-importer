@@ -132,10 +132,10 @@ function importDump() {
   console.log(files)
 
   for (var file of files) {
-    exec('docker-compose exec -T arangodb arangoimp --file /parsed/' + file + ' --server.database ' 
+    exec('docker-compose exec -T arangodb arangoimp --file /data/parsed/' + file + ' --server.database ' 
           + config.database + ' --server.password ' + config.password 
           + ' --collection ' + config.collection + ' --create-collection true');
-    log(chalk.black.bgGreen.bold(`Import of ${file} finished! :-)`));
+    log(chalk.green.bold(`Import of ${file} finished! :-)`));
   }
 }
 
