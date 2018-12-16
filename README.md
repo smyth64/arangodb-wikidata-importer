@@ -41,3 +41,6 @@ node scripts/importer.js parsed/
 ```
 
 
+# ToDo
+[ ] Putting claims (the relations) into a graph instead of the collection.
+
