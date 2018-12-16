@@ -11,6 +11,11 @@ var input = args[0];
 var output = args[1];
 
 rimraf(output, function(error) {
+  if (error) {
+    log('Error: ', error)
+    process.exit()
+  }
+    
   stream.output.on("data", function(object){
       fs.appendFileSync(output, JSON.stringify(object.value) + '\n')
   });
